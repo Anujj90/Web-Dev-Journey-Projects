@@ -1,0 +1,90 @@
+/*default styling */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*descendant selector*/
+header h1{
+    padding-left:15rem;
+    padding-top:1rem;
+    font-style: normal;
+    font-weight: 900;
+}
+
+header {
+    display: flex; /*it is a property, everything in same line*/
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style:none;
+    font-size: 1.3rem;
+}
+nav{
+    width: 20rem;
+    position: relative;
+    top: 1rem;
+    padding-right: 10rem;
+    padding-top:.8rem;
+    background-color: black;
+    padding-right: 2rem;
+    
+    
+}
+.showcase_img{
+    width:90vw;
+    margin:12px;
+}
+
+article{
+
+    display: flex;
+}
+
+.container{
+    text-align: center;
+    margin: 5rem;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+h1{
+    font-style: oblique;
+    font-variant: calc();
+    font-weight: 900
+}
+footer{
+    background-color: black;
+    color:blanchedalmond;
+    height:2rem;
+    display: flex;
+    justify-content:center;/*aligns horizontally*/
+    align-items: center; /*aligns vertically*/
+    font-size: 1rem;
+
+}
+a{
+    text-decoration: none;
+    color:plum
+    
+
+
+    
+}
+/*pseudo classes*/
+a:hover{
+    color: red;
+}
+section{
+    padding-top: 2rem;
+    padding-left: 3.1rem;
+
+}
+
+
+
